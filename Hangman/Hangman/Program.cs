@@ -36,7 +36,7 @@ namespace Hangman
             // denna forloop gör så att alla bokstäver som inte är gissade och utskrivna i orden kommer vara en sjärna.
 
             int antalGissningar = 10;
-            //hur många antal gissningar man får sig innan spel avslutas och man förlorar
+            //hur många antal gissningar man får sig innan spel avslutas och man förlorar.
 
             do
             {
@@ -45,7 +45,6 @@ namespace Hangman
 
                 if (ord.Contains(gissning))
                 {
-                    //fyll på starWord
                     char[] ordChars = ord.ToCharArray();
 
                     for (int i = 0; i < ordChars.Length; i++)
@@ -56,7 +55,7 @@ namespace Hangman
 
                         }
                     }
-
+                        //om bokstaven finns i ordet som du gissade på ska denna for loop byta ut sjärntecknen mot bokstaven som var rätt istället.
                     Console.WriteLine(stars);
 
                     string starWord = new string(stars);
@@ -64,12 +63,14 @@ namespace Hangman
                     if (starWord.Contains("*"))
                     {
                         continue;
+                        //om bokstaven inte fanns i sjärnan så ska programmet bara forsätta tills man gissat rätt och vunnit eller förlorat.
                     }
                     else
                     {
                         Console.WriteLine("Winner Winner Chicken Dinner!");
                         Console.WriteLine("Du vann och hade " + antalGissningar + " gissningar kvar!");
                         break;
+                        //om personen vinner får den veta det och hur många gissningar personen hade kvar när den vann.
                     }
 
                 }
@@ -78,18 +79,17 @@ namespace Hangman
                     Console.WriteLine("Du gissa fel!");
                     antalGissningar--;
                     Console.WriteLine("Du har: " + antalGissningar + " kvar!");
-
-                    //om personen gissar fel
+                    //om personen gissar fel så får du veta det och du får också veta hur många gissningar du har kvar och antal gissningar minskar.
                 }
                 if (antalGissningar == 0)
                 {
                     Console.WriteLine("Du har förlorat Hehe!");
                     Console.WriteLine("Spelet är över mitt hemliga ord var " + ordlista[slumpTal]);
-                   
+                    //om antalet gissningar är 0 så har du förlorat och får veta vad det hemliga ordet var.
                 }
 
             } while (antalGissningar > 0); 
-
+            //detta ska köras så länge antalet gissningar är större än 0.
         }
     }
 }
