@@ -2,3 +2,12 @@ C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\obj\Debu
 C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.AssemblyInfoInputs.cache
 C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.AssemblyInfo.cs
 C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.exe
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.deps.json
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.runtimeconfig.json
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.runtimeconfig.dev.json
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.dll
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\bin\Debug\netcoreapp3.1\Hangman.pdb
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.dll
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.pdb
+C:\Users\nils.bjorndahl\Documents\GitHub\programmering1\Hangman\Hangman\obj\Debug\netcoreapp3.1\Hangman.genruntimeconfig.cache
